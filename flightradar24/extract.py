@@ -7,6 +7,7 @@ fr_api = FlightRadar24API()
 airports = fr_api.get_airports()
 airlines = fr_api.get_airlines()
 flights = fr_api.get_flights()
+print("merci moad")
 '''
 pattern = r'[< >]'
 mod_string = re.sub(pattern, '', flights)
